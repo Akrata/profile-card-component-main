@@ -16,8 +16,8 @@ main{
 }
 
 .card{
-    height: 500px;
-    width: 450px;
+    height: 550px;
+    width: 500px;
     border-radius: 1rem;
     background: white;
     display: flex;
@@ -28,7 +28,7 @@ main{
 .card-pattern{
     display: flex;
     background: url(images/bg-pattern-card.svg);
-    min-height: 40%;
+    min-height: 35%;
     min-width: 100%;
     border-radius: 1rem 1rem 0 0;
     background-size: cover;
@@ -36,16 +36,28 @@ main{
 }
 
 .card-image{
-    background: yellow;
+    background:url(images/image-victor.jpg);
     width: 150px;
     height: 150px;
     margin-top: -75px;
+    border-radius: 50%;
+    border: 5px solid white;
 }
 
 .card-user{
     border: solid 1px blue;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
 }
+hr{
+    background-color: #EAEAEA;
+    min-height: 2px;
+    width: 100%;
+}
+    
+
 
 .card-social{
     width: 100%;
@@ -53,6 +65,7 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     border: solid 1px blue;
     text-align: center;
+    margin: 20px;
     
 }
 
