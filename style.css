@@ -45,12 +45,22 @@ main{
 }
 
 .card-user{
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
     text-align: center;
     justify-content: center;
     align-items: center;
     margin: 40px;
 }
+.card-user h2 span{
+    color:hsl(0, 0%, 59%)
+}
+.card-user h3{
+    margin-top: 10px;
+    color:hsl(0, 0%, 59%);
+    
+    
+}
+
 hr{
     background-color: #EAEAEA;
     min-height: 2px;
@@ -63,13 +73,18 @@ hr{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
     text-align: center;
-    margin: 20px;
+    margin: auto;
     
 }
 
 .card-social-likes{
-    background: red;
+    /* background: red; */
 }
+
+.grey{
+    color: hsl(0, 0%, 59%);
+}
+
 
