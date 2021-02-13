@@ -75,6 +75,9 @@ hr{
     min-height: 1px;
     width: 100%;
 }
+h2{
+    font-weight: bold;
+}
     
 
 
@@ -102,7 +105,7 @@ hr{
     height: 1000px;
     position: absolute;
     top: -50%;
-    left: -5%;
+    right: 55%;
     background: url(images/bg-pattern-top.svg) no-repeat;
     z-index: 1;
 }
@@ -112,7 +115,7 @@ hr{
     height: 1000px;
     position: absolute;
     bottom: -60%;
-    right: -5%;
+    left: 50%;
     background: url(images/bg-pattern-bottom.svg) no-repeat;
     z-index: 1;
 }
@@ -122,7 +125,7 @@ hr{
     }
     .circle1{
         top: -50%;
-        left: -150%;
+        right: 50%;
     }
     .circle2{
         bottom: -60%;
