@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 body{
     background: hsl(185, 75%, 39%);
+    overflow: hidden;
+    
 }
 
 main{
@@ -13,6 +16,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .card{
@@ -23,6 +27,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: hsl(229, 23%, 23%);
+    z-index: 3;
 }
 
 .card-pattern{
@@ -52,18 +58,20 @@ main{
     margin: 40px;
 }
 .card-user h2 span{
-    color:hsl(0, 0%, 59%)
+    color:hsl(0, 0%, 59%);
+    font-weight: 400;
 }
 .card-user h3{
-    margin-top: 10px;
+    margin-top: 20px;
     color:hsl(0, 0%, 59%);
-    
+    letter-spacing: 2px;
+    font-weight: 400;
     
 }
 
 hr{
-    background-color: #EAEAEA;
-    min-height: 2px;
+    background-color: hsl(0, 0%, 59%);;
+    min-height: 1px;
     width: 100%;
 }
     
@@ -76,15 +84,34 @@ hr{
     /* border: solid 1px blue; */
     text-align: center;
     margin: auto;
+
     
 }
 
-.card-social-likes{
-    /* background: red; */
-}
 
 .grey{
     color: hsl(0, 0%, 59%);
+    letter-spacing: 2px;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: medium;
+}
+.circle1{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: -50%;
+    left: -5%;
+    background: url(images/bg-pattern-top.svg) no-repeat;
+    z-index: 1;
 }
 
-
+.circle2{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    bottom: -60%;
+    right: -5%;
+    background: url(images/bg-pattern-bottom.svg) no-repeat;
+    z-index: 1;
+}
